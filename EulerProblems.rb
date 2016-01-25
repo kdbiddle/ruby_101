@@ -8,7 +8,7 @@ def problem_one(n)
 		end
 		i += 1
 	end
-	puts total
+	puts "Problem 1 solution: " + total.to_s
 end
 
 problem_one(1000)
@@ -32,7 +32,7 @@ def problem_two(n)
 		end
 		y+=1
 	end
-	puts total
+	puts "Problem 2 solution: " + total.to_s
 end
 
 problem_two(4000000)
@@ -68,7 +68,7 @@ def problem_three(n)
 		end
 		z+=1
 	end
-	puts prime_factors.last
+	puts  "Problem 3 solution: " + prime_factors.last.to_s
 end
 
 problem_three(9999999)
